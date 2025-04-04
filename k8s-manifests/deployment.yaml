@@ -15,7 +15,7 @@ spec:
         app: payment-ms
     spec:
       containers:
-      - name: order-ms
+      - name: payment-ms
         image: aleclp/payment-ms:latest
         ports:
         - containerPort: 8081
